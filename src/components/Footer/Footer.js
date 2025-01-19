@@ -88,10 +88,10 @@ const Footer = () => {
      
 
       <div className="footer-copyright">
-  <p className="copyright-text">© 2024 Rupasinghe Steels & Fabrications Pvt Ltd. All rights reserved.</p>
+  <p className="copyright-text">© 2025 Rupasinghe Steels & Fabrications Pvt Ltd. All rights reserved.</p>
   <p className="credit-text">
     Designed and developed by Pabs-Codes 
-    <a href="https://www.linkedin.com/in/pabasara-navod/" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.linkedin.com/in/pabasaranavod/" target="_blank" rel="noopener noreferrer">
     <i className="fab fa-linkedin" style={myStyle}></i>
 </a>
 <a href="mailto:pabscodes@gmail.com" target="_blank" rel="noopener noreferrer">
