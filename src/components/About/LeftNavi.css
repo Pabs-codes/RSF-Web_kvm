@@ -1,0 +1,115 @@
+/* Default styles */
+
+.left-navi {
+  margin-top: 30px;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+  display: inline-block;
+  background: linear-gradient(to top, #212130, #39304A);
+  align-items: center;
+  animation: fadeIn 1s ease-in-out forwards, changeColor 2s ease-in-out infinite alternate;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 2px;
+
+}
+
+.navclass {
+  overflow: hidden;
+  /* background: linear-gradient(to top, #212130, #39304A); */
+  
+}
+
+.ulclass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.navclass a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: smaller;
+}
+
+.navclass a:hover {
+  color: #de800d;
+
+ 
+}
+
+.navclass.active {
+  background-color: #de800d;
+  color: white;
+  border-radius: 20px;
+
+}
+
+.navclass a.active::after {
+  content: '';
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid #de800d;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+.app-selected-item h2 {
+  color: orange; 
+  margin:auto;
+  margin-bottom: -67px;
+  /* margin-top: 20px; */
+  animation: colorChange 3s infinite alternate; /* Add animation property */
+  display: none;
+}
+
+@keyframes colorChange {
+  0% {
+    color: orange; /* Initial color */
+  }
+
+  100% {
+    color: rgb(18, 18, 18); /* Final color, same as initial for a continuous loop */
+  }
+}
+
+
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .ulclass {
+    display: inline-flexbox;
+    justify-content: center;
+    align-items: center;
+    list-style: armenian;
+    white-space: nowrap;
+    margin: 0;
+    font-size: 7px;
+  }
+
+  .navclass {
+    overflow: hidden;
+    background:rgba(57, 48, 74, 0.0);
+  }
+
+
+
+  .navclass a {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+}

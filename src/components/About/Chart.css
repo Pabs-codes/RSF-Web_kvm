@@ -1,0 +1,99 @@
+
+
+.chartContainer {
+    display: flex;
+    padding: 30px;
+    animation: fadeIn 1s ease-in-out ;
+  }
+
+
+  .descriptionContainer {
+    flex: 1;
+    padding: 50px;
+    
+  }
+  
+  .chartdiv {
+    flex: 1;
+    padding: 20px;
+    
+  }
+
+  .chartdiv img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .mimg{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+  }
+  .chartdiv p{
+    font-size: 8px;
+    padding-top: 10px;
+    font-weight: 600;
+ 
+  }
+
+  .chartdiv h3{
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+
+  .descriptionContainer h5 {
+    color: #333; /* Set your desired text color */
+    font-size: 24px; /* Set your desired font size */
+    margin-bottom: 10px; /* Adjust spacing as needed */
+  }
+
+  .descriptionContainer span{
+    color: rgb(255, 160, 17);
+  }
+  
+  .descriptionContainer p {
+    color: #555; /* Set your desired text color */
+    font-size: 16px; /* Set your desired font size */
+    line-height: 1.5; /* Adjust line height as needed */
+  }
+
+ /* Media Queries */
+@media only screen and (max-width: 768px) {
+  .chartContainer {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .chartContainer h2{
+    font-size: medium;
+  }
+  .chartContainer p{
+    font-size: 10px;
+  }
+
+  .descriptionContainer,
+  .chartdiv {
+    flex: auto;
+    padding: 20px;
+  }
+  .chartdiv p{
+    font-size: 6px;
+    padding-top: 10px;
+    font-weight: 600;
+  }
+
+  .chartdiv img {
+    margin-bottom: 20px;
+  }
+
+  .chartdiv h3{
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  
+}
+  

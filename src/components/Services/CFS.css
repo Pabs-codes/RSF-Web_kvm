@@ -1,0 +1,61 @@
+/* CFS.css */
+
+/* Container styles */
+.cfs-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  /* Text styles */
+  .cfs-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .under-construction {
+    font-size: 18px;
+    color: #ff6347;
+    margin-top: 10px;
+  }
+  
+  .additional-info {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* Media Queries for responsive design */
+  @media only screen and (max-width: 600px) {
+    .cfs-container {
+      margin: 10px;
+    }
+  
+    .cfs-text {
+      font-size: 20px;
+    }
+  
+    .under-construction {
+      font-size: 16px;
+    }
+  
+    .additional-info {
+      font-size: 14px;
+    }
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

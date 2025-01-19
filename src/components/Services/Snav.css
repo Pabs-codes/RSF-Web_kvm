@@ -1,0 +1,229 @@
+/* Default styles */
+
+
+.S-navi {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+  display: inline-block;
+  background: linear-gradient(to top, #212130, #39304A);
+  align-items: center;
+  animation: fadeIn 1s ease-in-out forwards, changeColor 2s ease-in-out infinite alternate;
+  border-radius: 20px;
+  padding: 2px;
+
+  }
+.Snavclass {
+    overflow: hidden;
+    /* background: linear-gradient(to top, #212130, #39304A); */
+    border-radius: 20px;
+  }
+  
+  .Sulclass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  
+    /* gap: 2rem; */
+  }
+
+
+  .Snavclass.active {
+   background-color: #de800d;
+  
+
+   
+  }
+
+  .Snavclass a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer; 
+    font-size: smaller;
+
+  }
+
+  .Snavclass a:hover {
+    text-decoration-color: #de800d;
+    border-bottom: 5px solid #de800d;
+
+  }
+  
+  
+  /* Media Queries */
+  @media only screen and (max-width: 768px) {
+
+    .S-navi {
+      display: inline-block;
+      /* background: linear-gradient(to top, #212130, #39304A); */
+      align-items: center;
+      animation: fadeIn 1s ease-in-out forwards, changeColor 2s ease-in-out infinite alternate;
+      border-radius: 0px;
+      width: 100%;
+        
+    
+      }
+    .Sulclass {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style:armenian;
+        margin: 0;
+        font-size: 8px; 
+        border-radius: 20px; 
+      }
+  
+    .Snavclass a {
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+      box-sizing: border-box;
+      
+    }
+  }
+  
+/* RW.css */
+
+.cs-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 7px; /* Adjust the gap between columns as needed */
+  padding: 50px;
+  text-align: left;
+
+}
+
+.cs-column {
+  flex: 1;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  padding :30px;
+}
+
+.cs-heading1 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.cs-heading {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.cs-paragraph {
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 30px;
+  margin-top: -10px;
+  font-size: 15px;
+}
+
+.cs-column .custoimg{
+  border-radius: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  height: auto;
+  display: block;
+
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .cs-container {
+    flex-direction: column;
+  }
+  .cs-column .custoimg{
+    max-width: 250px;
+  }
+}
+
+/* Add this to your CSS file */
+
+.Commerce-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 2px;
+}
+
+.left-content, .right-content {
+  flex: 1 1 45%; 
+  box-sizing: border-box;
+  padding: 20px;
+
+}
+
+.left-content {
+  order: 1; 
+  background-color: rgb(233, 237, 240);
+  border-radius: 20px;
+
+}
+
+.right-content {
+  order: 2; 
+  background-color: rgb(240, 233, 233);
+  border-radius: 20px;
+}
+
+.commerce-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.commerce-paragraph {
+  margin-bottom: 20px;
+}
+
+.commerce-subheading {
+  margin-top: 20px;
+}
+
+.commerce-productimage {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.commerce-images {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Adjust the gap between images as needed */
+  flex-wrap: wrap;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .Commerce-container {
+    flex-direction: column;
+  }
+
+  .left-content, .right-content {
+    flex: 1 1 100%; /* Full width for smaller screens */
+    order: initial;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* Additional responsive styles for screens up to 600px wide */
+  .commerce-heading {
+    font-size: 20px;
+  }
+
+  .commerce-productimage {
+    max-width: 100%; /* Adjust image width for smaller screens */
+  }
+}

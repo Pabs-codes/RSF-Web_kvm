@@ -1,0 +1,270 @@
+/* ... (previous styles) */
+
+.Recentprojects {
+    margin: 4rem 6rem;
+ 
+}
+
+/* Define the animation */
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.Recentprojects h1 {
+    font-size: 3rem;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.Recentprojects p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgb(93, 80, 80);
+}
+
+
+
+
+
+.image {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+}
+
+.image img {
+    width: 48%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+.image img:nth-child(2) {
+    position: absolute;
+    top: -10%;
+    right: 0;
+}
+
+/* Add these styles to your CSS file */
+
+.whatt-we-do{
+    padding-top: 130px;
+
+
+}
+
+.whatt-we-do h3{
+    color:#FF9900;
+
+}  
+
+.whatt-we-do .cardss {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px; 
+    gap: 10px;
+   
+}
+
+.whatt-we-do .cardd {
+    text-align: center;
+    padding: 20px;
+    border: 20px solid #ccc;
+    border-radius: 8px;
+    width: 450px;
+    height: 550px;
+
+  
+}
+
+.whatt-we-do .cardd img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+  
+}
+
+.whatt-we-do .cardd p {
+    margin-top: 10px;
+}
+
+/* Media query for tablets and smaller screens */
+@media only screen and (max-width: 768px) {
+    .whatt-we-do {
+        padding-top: 80px; /* Adjusted padding for smaller screens */
+    }
+
+    .whatt-we-do .cardss {
+        flex-direction: column; /* Stack cardss vertically on smaller screens */
+    }
+
+    .whatt-we-do .cardd {
+        width: 100%; /* Full width for smaller screens */
+        height: auto; /* Adjusted height to allow content to determine height */
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .Recentprojects {
+        margin: 4rem 2rem;
+    }
+
+    .firstt-des {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4.5rem;
+    }
+
+    .des-textt {
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+        margin: 1.8rem 0;
+    }
+
+    .image img {
+        height: 250px;
+    }
+}
+
+
+/*services styles*/
+
+/* special style */
+/* special style */
+
+/* Add these styles to your CSS file */
+
+.special__categor {
+    margin-top: 4rem;
+    background-color: #f8f8f8; /* You can set the background color as needed */
+    padding: 50px;
+  }
+  
+  .special__container {
+    margin: 0 auto;
+  }
+  
+  .special__box {
+    text-align: center;
+  }
+  
+  .special__box h2.whatt-we-do {
+    font-size: 2.5rem;
+    font-family: 'El Messiri', sans-serif;
+    color: #333; /* Set the desired textt color */
+  }
+  
+  .special__box h3.whatt-we-do {
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    color: #555; /* Set the desired textt color */
+    margin-top: 1rem;
+  }
+  
+  /* ... (any other existing styles) */
+
+  
+
+
+.special__category {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 3fr));
+    justify-content: center;
+    gap: 2.5rem;
+   
+  }
+  
+  .zoomed-in {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: 3px solid #808080;
+    animation: borderShine 2s infinite;
+  }
+  
+  .special__description {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    color: #121111; /* You can adjust the color as needed */
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+  @keyframes borderShine {
+    0% {
+      border-color: #f4f4f4;
+      box-shadow: 0 0 5px #dde7dd;
+    }
+    50% {
+      border-color: #f6da68;
+      box-shadow: 0 0 15px #f0d461;
+    }
+    100% {
+      border-color: #ffffff;
+      box-shadow: 0 0 5px #ffffff;
+    }
+  }
+  
+  .special__title {
+    font-size: var(--h2-font-size);
+    margin-bottom: 0.25rem;
+    font-weight: 700;
+  }
+
+  .swipe-button {
+    margin-top: 20px;
+    width: 200px;
+    padding: 10px;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    animation: ease-in-out;
+  }
+  
+  .swipe-button:hover {
+    background-color: #0091ff;
+    animation: shake 0.5s ease-in-out;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(-10px);
+  }
+  30%, 50%, 70% {
+    transform: translateX(10px);
+  }
+}
+  
+  
+  /* Add this media query for smaller screens */
+  @media only screen and (max-width: 768px) {
+    .swipe-button {
+      margin-top: 10px;
+    }
+  }
+  
+  /* end */
+  

@@ -1,0 +1,62 @@
+.values-container {
+    /* max-width: 800px; */
+    margin: 0 auto;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    background: linear-gradient(to right, #022F40 , #38AECC, );
+    animation: fadeIn 1s ease-in-out forwards, changeColor 2s ease-in-out infinite alternate;
+  }
+
+  
+  .values-title {
+    font-size: 2em;
+    text-align: left;
+    color: #fff; /* Set your desired light font color */
+    margin-bottom: 20px;
+  }
+  
+  .values-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .value-item {
+    border-bottom: 1px solid #ccc; /* Set your desired border color */
+    padding: 20px 0;
+    text-align: left;
+    color: #ddd;
+  }
+  
+  .value-number {
+    font-weight: bold;
+    margin-right: 8px;
+    color: #ddd; /* Set your desired color for the number */
+  }
+  
+  .value-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ddd; /* Set your desired light font color */
+    text-align: left; /* Left-align the text */
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .values-container {
+      padding: 10px;
+    }
+  
+    .values-title {
+      font-size: 1.5em;
+    }
+  
+    .value-item {
+      padding: 15px 0;
+    }
+  
+    .value-item p {
+      font-size: 14px;
+    }
+  }
+  

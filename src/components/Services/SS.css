@@ -1,0 +1,106 @@
+
+
+.chartContainer2 {
+    display: flex;
+    padding: 30px;
+    animation: fadeIn 1s ease-in-out ;
+    text-align: left;
+    background-color:rgba(217, 212, 199, 0.107);
+    box-shadow: 10px 14px 8px rgba(0, 0, 0, 0.204);
+  }
+
+
+  .descriptionContainer2 {
+    flex: 1;
+    padding: 50px;
+    
+  }
+  
+  .chartdiv2 {
+
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+
+    
+  }
+
+  .chartdiv2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .mimggg{
+    height: 400px;
+    width: 600px;
+  }
+  .chartdiv2 p{
+    font-size: 12px;
+    padding-top: 10px;
+    font-weight: 300;
+    text-align: left;
+ 
+  }
+
+  .chartdiv2 h3{
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+
+  .descriptionContainer2 h5 {
+    color: #333; /* Set your desired text color */
+    font-size: 24px; /* Set your desired font size */
+    margin-bottom: 10px; /* Adjust spacing as needed */
+  }
+
+  .descriptionContainer2 span{
+    color: rgb(255, 160, 17);
+  }
+  
+  .descriptionContainer2 p {
+    color: #555; /* Set your desired text color */
+    font-size: 16px; /* Set your desired font size */
+    line-height: 1.5; /* Adjust line height as needed */
+  }
+
+ /* Media Queries */
+@media only screen and (max-width: 768px) {
+  .chartContainer2 {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .chartContainer2 h2{
+    font-size: medium;
+  }
+  .chartContainer2 p{
+    font-size: 10px;
+  }
+
+  .descriptionContainer2,
+  .chartdiv2 {
+    flex: auto;
+    padding: 20px;
+  }
+  .chartdiv2 p{
+    font-size: 6px;
+    padding-top: 10px;
+    font-weight: 600;
+  }
+
+  .chartdiv2 img {
+    margin-bottom: 20px;
+  }
+
+  .chartdiv h3{
+    font-size: 10px;
+    font-weight: 300;
+  }
+  .mimggg{
+    max-width: 300px;
+   max-height: 300px;
+  }
+  
+}
+  

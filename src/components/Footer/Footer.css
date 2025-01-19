@@ -1,0 +1,204 @@
+/* Footer.css */
+
+.footer {
+    background-color: #232323; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    padding-top:70px ;
+    text-align: center;
+    border: 2px solid #ff9900;
+  }
+  
+  .footer-content {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+
+  }
+  
+  .footer h4 {
+    color: #ff9900; /* Heading color */
+  }
+  
+  .footer-address,
+  .footer-contact,
+  .footer-office {
+    flex: 1;
+    margin: 20px 20px;
+    max-width: 300px;
+    text-align: justify;
+    padding: 30px;
+  }
+  
+  .footer-address p,
+  .footer-contact p,
+  .footer-office p {
+    margin: 0;
+    font-size: small;
+    padding-top: 10px;
+   
+  }
+
+  .social-icons {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #ff9900;
+  }
+  
+  .footer-map {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+
+.footer-message {
+    flex: 1;
+    margin: 45px 20px;
+    max-width: 300px;
+    text-align: justify;
+
+  }
+  
+  .footer-message form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+  }
+  
+  .footer-message h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-message input,
+  .footer-message textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 450px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    resize: none;
+  } 
+  .footer-message button {
+    padding: 12px 44px;
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid #fff;
+    border-radius: 15px;
+  }
+  
+  .footer-message button:hover {
+    background-color: #13e500;
+  }
+  
+  
+  
+  .footer-copyright {
+    margin-top: 50px;
+    padding-bottom: 20px;
+  }
+  
+  .copyright-text{
+    font-size:10px;
+    color: #ff9900; 
+  }
+  .credit-text {
+   
+    font-size:8px;
+    
+  }
+
+  .footer-copyright .stenco-logo {
+    width: 50px; 
+    height: auto; 
+    margin-left: 5px; 
+    vertical-align: middle;
+  }
+  
+  .footer-map {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .location-button {
+    display: inline-block;
+    padding: 12px 24px;
+    padding-left: 0px;
+    background-color:#232323;
+    color: #fff;
+    text-decoration: none;
+    /* border: 1px solid #fff; */
+    border-radius: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    animation: blinkAnimation 0.3s infinite alternate;
+  }
+  
+  .location-button:hover {
+    color: #ff9900;
+    animation: none; /* Stop blinking on hover */
+  }
+  
+  @keyframes blinkAnimation {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+    }
+  
+    .footer-address,
+    .footer-contact,
+    .footer-office,
+
+    .footer-message {
+      margin: 0; /* Adjust margin as needed */
+      max-width: none;
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .footer-message form {
+      font-size: smaller; /* You can adjust the font size as needed */
+    }
+  
+    .footer-message input,
+    .footer-message textarea {
+      width: 100%; /* Make the input fields full-width */
+    }
+  
+    .footer-message button {
+      padding: 1px 2px; /* Adjust padding as needed */
+    }
+  
+    .location-button {
+      padding-left: 24px;
+    }
+  }
+
+
+  
+  
+  

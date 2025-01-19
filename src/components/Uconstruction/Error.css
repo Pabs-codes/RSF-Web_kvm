@@ -1,0 +1,65 @@
+/* Reset or Normalize Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+  position: relative;
+  padding-top: 100px;
+}
+
+.error-container:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border: 5px solid transparent;
+  border-image: linear-gradient(45deg, #fff, #00f, #0f0, #ff0, #f00, #fff) 1;
+  border-image-slice: 1;
+  animation: borderAnimation 5s linear infinite;
+}
+
+.error-heading {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  font-size: 1rem;
+  color: #555;
+}
+
+.error-message0 {
+  font-size: 10px;
+  padding-top: 10px;
+  color: #555;
+}
+
+.hiks {
+  padding-top: 20px;
+}
+
+.hiks .whatsapp-button {
+  display: inline-block;
+  background-color: #25d366;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+

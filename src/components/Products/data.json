@@ -1,0 +1,311 @@
+{
+  "categories": [
+    {
+      "_id": "abc123",
+      "category": "Structural_steel",
+      "availability": "Available",
+      "name": "I-Beam",
+      "imageUrl": "./media/i-beam.jpg",
+      "size2": "",
+      "details": "Precision-engineered I-beam made from top-grade steel, ensuring outstanding durability and strength",
+      "details2": "Country: China"
+     
+    },
+    {
+      "_id": "abc1235",
+      "category": "Structural_steel",
+      "availability": "Available",
+      "name": "H-Beam",
+      "imageUrl": "./media/H-beam.png",
+      "size2": "",
+      "details": "High-quality H-beam crafted from premium steel, offering exceptional durability and strength.",
+      "details2": "Country: China"
+      
+    },
+    {
+      "_id": "abc123",
+      "category": "Structural_steel",
+      "availability": "Available",
+      "name": "Box Bar",
+      "imageUrl": "./media/boxbar.jpg",
+      "size2": "",
+      "details": "Sturdy square or rectangular steel bar with a hollow center, offering exceptional strength.",
+      "details2": "Country: China"
+    },
+    {
+      "_id": "abc123",
+      "category": "Structural_steel",
+      "availability": "Available",
+      "name": "Angle Beam",
+      "imageUrl": "./media/abeams.jpg",
+      "size2": "",
+      "details": " L-shaped angle beam forged from high-quality steel, providing excellent structural support and reinforcement.",
+      "details2": "Country: China"
+    },
+
+    {
+      "_id": "abc123",
+      "category": "Structural_steel",
+      "availability": "Available",
+      "name": "Channel Beam",
+      "imageUrl": "./media/cbeams.jpg",
+      "size2": "",
+      "details": "Premium C-shaped channel beam manufactured from superior steel.",
+      "details2": "Country: China"
+    },
+
+    {
+      "_id": "abc123",
+      "category": "Structural_steel",
+      "availability": "Available",
+      "name": "Flat Iron",
+      "imageUrl": "./media/firon.jpg",
+      "size2": "",
+      "details": "Top-quality flat iron with a sleek and durable design, crafted from premium steel. ",
+      "details2": "Country: China"
+    },
+
+    {
+      "_id": "abc123",
+      "category": "Structural_steel",
+      "availability": "Available",
+      "name": "Trusses",
+      "imageUrl": "./media/trusses.jpg",
+      "size2": "",
+      "details": " Expertly designed trusses featuring a robust triangular pattern. Crafted from high-quality materials for reliable support in roofing and structural applications.",
+      "details2": "Country: China"
+    },
+
+    {
+      "_id": "abc123",
+      "category": "Structural_steel",
+      "availability": "Available",
+      "name": "M.S. Plates (Mild Steel Plates)",
+      "imageUrl": "./media/msplates.jpg",
+      "size2": "",
+      "details": "High-grade mild steel plates, available in various thicknesses for structural applications.",
+      "details2": "Country: China"
+    },
+
+    {
+      "_id": "abc123",
+      "category": "Structural_steel",
+      "availability": "Available",
+      "name": "Checker Plates",
+      "imageUrl": "./media/checkerplates.jpg",
+      "size2": "",
+      "details": "Checker plates with a raised pattern for enhanced traction and durability. Ideal for flooring, stairs, and platforms where slip resistance is crucial",
+      "details2": "Country: China"
+    },
+
+    {
+      "_id": "abc123",
+      "category": "Structural_steel",
+      "availability": "Available",
+      "name": "Hex Nuts and Bolts",
+      "imageUrl": "./media/hexnut.jpg",
+      "size2": "",
+      "details": "Premium hex nuts and bolts made from top-grade materials. Designed for secure and reliable joining of structural components in construction.",
+      "details2": "Country: China"
+    },
+
+    {
+      "_id": "abc123",
+      "category": "Structural_steel",
+      "availability": "Available",
+      "name": "Fasteners",
+      "imageUrl": "./media/fastners.jpg",
+      "size2": "",
+      "details": "A comprehensive range of fasteners, including screws and rivets, crafted for durability and precision.",
+      "details2": "Country: China"
+    },
+
+    {
+      "_id": "abc123",
+      "category": "Structural_steel",
+      "availability": "Available",
+      "name": "Welding Rods",
+      "imageUrl": "./media/wrods.jpg",
+      "size2": "",
+      "details": "High-quality welding rods, crafted for efficient and robust welding processes. Ideal for joining metals and ensuring structural integrity.",
+      "details2": "Country: China"
+    },
+
+    {
+      "_id": "abc123",
+      "category": "Structural_steel",
+      "availability": "Available",
+      "name": "Paints",
+      "imageUrl": "./media/paints.jpg",
+      "size2": "",
+      "details": "Premium coating paints designed for surfaces, offering both protection and a polished aesthetic finish",
+      "details2": "Country: China"
+    },
+
+    {
+      "_id": "abc123",
+      "category": "Structural_steel",
+      "availability": "Available",
+      "name": "Galvanizing",
+      "imageUrl": "./media/galvanizing.jpg",
+      "size2": "",
+      "details": " Galvanizing service for steel, providing a protective layer of zinc. Ensures longevity and resistance against corrosion in various construction applications.",
+      "details2": "Country: China"
+    },
+
+    {
+      "_id": "abc123",
+      "category": "Structural_steel",
+      "availability": "Available",
+      "name": "Steel Door",
+      "imageUrl": "./media/sdoors.jpg",
+      "size2": "",
+      "details": "Robust steel door crafted for security and durability. Made from high-quality steel for reliable performance and long-lasting use in building entrances",
+      "details2": "Country: China"
+    },
+
+   
+
+
+
+    {
+      "_id": "abc123",
+      "category": "Roofing_solutions",
+      "availability": "Available",
+      "name": "Corrugated Sheet",
+      "imageUrl": "./media/csheet.jpg",
+      "size2": "",
+      "details": "Roofing or cladding sheets with parallel ridges and grooves for strength.",
+      "details2": "Country: "
+    },
+    {
+      "_id": "abc123",
+      "category": "Roofing_solutions",
+      "availability": "Available",
+      "name": "Roofing sheet",
+      "imageUrl": "./media/rsheet.jpg",
+      "size2": "",
+      "details": "Large, flat materials (metal, plastic, fiberglass) used for roofing.",
+      "details2": "Country:"
+    },
+    {
+      "_id": "abc123",
+      "category": "Roofing_solutions",
+      "availability": "Available",
+      "name": "Aluminium Sheet",
+      "imageUrl": "./media/Asheet2.jpg",
+      "size2": "",
+      "details": "Lightweight and corrosion-resistant, an aluminum sheet is versatile and often employed in aerospace, automotive, and construction applications.",
+      "details2": "Country: "
+    },
+    {
+      "_id": "abc123",
+      "category": "Roofing_solutions",
+      "availability": "Available",
+      "name": "Aluminium Chequered Plate",
+      "imageUrl": "./media/dplate.jpg",
+      "size2": "",
+      "details": " An aluminum plate with a raised pattern for enhanced slip resistance, ideal for flooring, stairs, and other applications requiring traction.",
+      "details2": "Country: "
+    },
+    {
+      "_id": "abc123",
+      "category": "Roofing_solutions",
+      "availability": "Available",
+      "name": "Galvanized Coil",
+      "imageUrl": "./media/gcoil.jpg",
+      "size2": "",
+      "details": "A steel coil coated with a layer of zinc for corrosion resistance, commonly used in the production of roofing materials and various structural components.",
+      "details2": "Country: "
+    },
+    {
+      "_id": "abc123",
+      "category": "Roofing_solutions",
+      "availability": "Available",
+      "name": "Curved Roofing",
+      "imageUrl": "./media/croof.jpg",
+      "size2": "",
+      "details": "Specially designed roofing material that can be bent or shaped to create a curved roof profile, adding a unique and aesthetically pleasing dimension to architectural designs.",
+      "details2": "Country: "
+    },
+    {
+      "_id": "abc123",
+      "category": "Roofing_solutions",
+      "availability": "Available",
+      "name": "Gutters & Accessories",
+      "imageUrl": "./media/gas.jpg",
+      "size2": "",
+      "details": " A system of channels and pipes designed to collect and divert rainwater from the roof, preventing water damage to the building. Accessories include downspouts, gutter guards, and connectors",
+      "details2": "Country: "
+    },
+    {
+      "_id": "abc123",
+      "category": "Roofing_solutions",
+      "availability": "Available",
+      "name": "Purlin",
+      "imageUrl": "./media/purlin.jpg",
+      "size2": "",
+      "details": " A horizontal structural member in a roof, often made of steel or wood, supporting the roof covering and transferring loads to the main framework. Purlins provide additional strength and stability to the roof structure.",
+      "details2": "Country: "
+    },
+  
+
+
+
+
+    {
+      "_id": "abc123",
+      "category": "Cladding_sheets",
+      "availability": "Available",
+      "name": "Metal Cladding",
+      "imageUrl": "./media/mcladding.jpg",
+      "size2": "",
+      "details": "A protective layer of metal, often aluminum or steel, applied to surfaces for aesthetic appeal, weather resistance, and additional structural support.",
+      "details2": "Country:"
+    },
+    {
+      "_id": "abc123",
+      "category": "Cladding_sheets",
+      "availability": "Available",
+      "name": "Aluminium Foil",
+      "imageUrl": "./media/afoil.jpg",
+      "size2": "",
+      "details": "A thin, pliable sheet of aluminum known for its excellent heat conductivity and barrier properties, commonly used for food packaging, insulation, and cooking.",
+      "details2": "Country: "
+    },
+    {
+      "_id": "abc123",
+      "category": "Cladding_sheets",
+      "availability": "Available",
+      "name": "Perforated Sheet",
+      "imageUrl": "./media/psheet.jpg",
+      "size2": "",
+      "details": "Sheets of metal or other materials with punched holes or patterns, allowing for ventilation, filtration, or decorative applications in various industries.",
+      "details2": "Country: "
+    },
+    {
+      "_id": "abc123",
+      "category": "Cladding_sheets",
+      "availability": "Available",
+      "name": "Wall Cladding",
+      "imageUrl": "./media/wcladding.jpg",
+      "size2": "",
+      "details": "An exterior covering for walls, available in diverse materials like metal, wood, or composite, providing both decorative features and additional protection against the elements.",
+      "details2": "Country: "
+    }
+  ],
+  "places": [
+    {
+      "_id": "abc123",
+      "imageUrl": "./media/rsf.jpg"
+    },
+    {
+      "_id": "abc123",
+      "imageUrl": "./media/rsf2.jpg"
+    },
+    {
+      "_id": "abc123",
+      "imageUrl": "./media/rsf3.jpg"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+/* RW.css */
+
+.cladding-container {
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(to right, #333, #555); /* Gradient background */
+  color: #f8f8f8; /* Light text color */
+  border-radius: 8px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(15px); /* Blur effect */
+}
+
+.cladding-container h1 {
+  color: #f8f8f8; /* Light text color */
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.cladding-container h2 {
+  color: #ddd; /* Slightly lighter text color for headings */
+  margin-top: 20px;
+}
+
+.cladding-container p {
+  line-height: 1.5;
+  color: #ccc; /* Lighter text color for paragraphs */
+}
+
+.cladding-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.cladding-container li {
+  margin-bottom: 5px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  .cladding-container {
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .cladding-container {
+    font-size: 16px;
+  }
+}
+
+/* Add more media queries as needed for different screen sizes */

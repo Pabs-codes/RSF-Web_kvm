@@ -1,0 +1,59 @@
+.policy-container {
+    background: linear-gradient(to right,#09203F, #537895);  
+    padding: 40px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out forwards, changeColor 2s ease-in-out infinite alternate;
+  }
+  
+  .policy-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .policy-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: aliceblue;
+  }
+  
+  .policy-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .policy-box {
+    flex: 0 1 calc(50% - 20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .policy-box p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: aliceblue;
+  }
+  .spantext {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(252, 252, 252); /* Set your desired color */
+    margin-right: 8px;
+  }
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .policy-container {
+      padding: 20px;
+    }
+  
+    .policy-title {
+      font-size: 2em;
+    }
+  
+    .policy-box {
+      flex: 0 1 100%;
+    }
+  }
+  

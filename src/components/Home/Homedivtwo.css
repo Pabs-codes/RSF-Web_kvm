@@ -1,0 +1,196 @@
+/* Homedivtwo.css */
+.Homedivtwo {
+    margin: 4rem 6rem;
+
+}
+
+/* Define the animation */
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.why-choose-us2 {
+    text-align: center;
+}
+
+.cards2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+    transition: transform 1s ease-in-out;
+}
+
+.card2 {
+    width: 12%; /* Adjusted width */
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+    transform-origin: center bottom; /* Set the rotation origin to the center bottom of the card */
+    border-radius: 25px;
+    /* Add scale animation */
+    animation: scaleAnimation 2s infinite alternate; /* Adjust the duration and other parameters as needed */
+}
+
+.card2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.card2 h4 {
+    margin-bottom: 1rem;
+    font-size: 1rem; /* Adjusted font size */
+}
+
+.card2 p {
+    font-size: 0.8rem; /* Adjusted font size */
+}
+
+/* Add hover effect with rotation */
+.card2:hover {
+    transform: scale(1.2) translate3d(10px, 20px, 30px);
+}
+
+/* Define the scale animation */
+@keyframes scaleAnimation {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+/* Your existing styles */
+h3 {
+    /* Other styles */
+    padding-bottom: 30px;
+}
+
+h2 {
+    /* Other styles */
+    padding-bottom: 30px;
+}
+
+
+
+/* Homedivtwo.css */
+
+/* Your existing styles for larger screens */
+/* Homedivtwo.css */
+
+/* Your existing styles for larger screens */
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .Homedivtwo {
+        margin: 2rem;
+    }
+
+    .cards2 {
+        margin-top: 1rem;
+    }
+
+    .card2 {
+        width: 48%; /* Adjusted width for better display on tablets */
+        margin: 5px;
+        padding: 5px;
+        animation: none;
+    }
+
+    .card2 h4 {
+        font-size: 12px; /* Adjusted font size for tablets */
+    }
+
+    .card2 p {
+        font-size: 15px; /* Adjusted font size for tablets */
+    }
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 480px) {
+    .Homedivtwo {
+        margin: 1rem;
+    }
+
+    .cards2 {
+        margin-top: 0.5rem;
+    }
+
+    .card2 {
+        width: 50%; /* Full width for mobile devices */
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .card2 h4 {
+        font-size: 0.8rem; /* Adjusted font size for mobile devices */
+    }
+
+    .card2 p {
+        font-size: 18px; /* Adjusted font size for mobile devices */
+    }
+}
+
+/* Media query for tablets */
+@media only screen and (min-width: 952px) and (max-width: 1300px) {
+    .Homedivtwo {
+        margin: 2rem;
+    }
+
+    .cards2 {
+        margin-top: 1rem;
+    }
+
+    .card2 {
+        width: 48%; /* Adjusted width for better display on tablets */
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .card2 h4 {
+        font-size: 10px; /* Adjusted font size for tablets */
+    }
+
+    .card2 p {
+        font-size: 18px; /* Adjusted font size for tablets */
+    }
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 480px) {
+    .Homedivtwo {
+        margin: 1rem;
+    }
+
+    .cards2 {
+        margin-top: 0.5rem;
+      
+    }
+
+       
+
+    .card2 img {
+        max-width: 80%; /* Adjusted max-width for mobile devices */
+        height: auto;
+    }
+
+    .card2 h4 {
+        font-size: 1rem; /* Increased font size for mobile devices */
+        margin-bottom: 0.5rem;
+    }
+
+    .card2 p {
+        font-size: 12px; /* Increased font size for mobile devices */
+    }
+}

@@ -1,0 +1,73 @@
+/* Your existing styles */
+
+.pesb-container {
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #1d1a02; /* Dark background */
+  text-align: left;
+  gap: 2rem;
+  display: flex;
+}
+
+.section-heading {
+  color: rgb(255, 160, 17); /* Orange color for first words */
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.pesb-container p {
+  color: #ffffff; /* White text */
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.listclass {
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+.pesb-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.divone {
+  background-color: rgba(1, 0, 0, 0.7); /* Dark background with transparency */
+  padding: 40px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px); /* Adjust the blur strength as needed */
+}
+
+.divone .refp {
+  font-style: italic;
+  font-size: x-small;
+  text-align: center;
+}
+
+.divtwo {
+  background-color: rgba(12, 8, 2, 0.7); /* Dark background with transparency */
+  padding: 40px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px); /* Adjust the blur strength as needed */
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .pesb-container {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .divone,
+  .divtwo {
+    padding: 20px;
+  }
+}
