@@ -94,7 +94,7 @@ const Products = () => {
               category.category === filter && (
                 <article className={`products__card main-menu ${isVisible ? 'fade-in active' : 'fade-in'}`} key={index}>
                   <div className="products__shape">
-                    <img src={category.imageUrl} alt="" className="products__img" />
+                    <img loading="lazy" decoding="async" src={category.imageUrl} alt="" className="products__img" />
                   </div>
                   <div className="products__data">
                     <h2 className="products__name1">{category.name}</h2>
@@ -139,7 +139,7 @@ const Products = () => {
                 rel="noopener noreferrer"
                 className="roofing-showcase__card"
               >
-                <img src={item.image} alt={item.name} className="roofing-showcase__image" />
+                <img loading="lazy" decoding="async" src={item.image} alt={item.name} className="roofing-showcase__image" />
                 <span className="roofing-showcase__name">{item.name}</span>
               </a>
             ))}

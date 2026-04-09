@@ -54,7 +54,7 @@ const Count = () => {
 function createItem(text, iconSrc, number) {
   return (
     <div className="count-item" key={text}>
-      <img src={iconSrc} alt={text + " Icon"} />
+      <img loading="lazy" decoding="async" src={iconSrc} alt={text + " Icon"} />
       <p>{text}</p>
       <p className="number">+{number}</p>
     </div>

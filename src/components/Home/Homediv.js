@@ -93,8 +93,8 @@ nstruction and unparalleled customer satisfaction.
         
 
         <div className="image">
-            <img alt="img" src={rsf}/>
-            <img alt="img" src={rsf2}/>
+          <img loading="lazy" decoding="async" alt="img" src={rsf}/>
+          <img loading="lazy" decoding="async" alt="img" src={rsf2}/>
             </div>
         </div>
 
@@ -106,21 +106,21 @@ nstruction and unparalleled customer satisfaction.
 
   <div className="cards">
     <div className="card">
-      <img alt="Card 1" src={one} />
+      <img loading="lazy" decoding="async" alt="Card 1" src={one} />
       <h4> Prefabricate Steel Buildings
  </h4>
  <p> Swift and cost-effective construction with pre-engineered steel buildings, offering flexibility, durability, and efficient use of resources. </p>
     </div>
 
     <div className="card">
-      <img alt="Card 2" src={two} />
+      <img loading="lazy" decoding="async" alt="Card 2" src={two} />
       <h4>Commercial Buildings
  </h4>
  <p>Tailored steel solutions for commercial spaces, combining durability, functionality, and aesthetic appeal to enhance business environments.</p>
     </div>
 
     <div className="card">
-      <img alt="Card 3" src={three} />
+      <img loading="lazy" decoding="async" alt="Card 3" src={three} />
       <h4>Multi storied steel Buildings.</h4>
 <p>Modern, efficient, and versatile multi-storied steel structures for optimized space utilization and structural strength. </p>
     </div>

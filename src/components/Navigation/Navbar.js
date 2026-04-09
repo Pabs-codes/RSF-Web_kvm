@@ -14,7 +14,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarItems">
-        <Link to="/" className="navbar-logo" onClick={() => window.location.reload()}>
+        <Link to="/" className="navbar-logo">
         <h1 className="navbar-logo">
           <span className="word1">Rupasinghe</span>
           <span className="word2"> Steels</span>

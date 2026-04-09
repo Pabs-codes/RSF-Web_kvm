@@ -102,16 +102,16 @@ const Recentprojects = () => {
     }, []);
   
     useEffect(() => {
-      // Auto-play the slideshow every 5 seconds
+      // Auto-play the slideshow every 5 seconds.
       const intervalId = setInterval(() => {
-        handleSwipeUp();
+        setCurrentGroup((prevGroup) => (prevGroup + 1) % Math.ceil(cardData.length / 3));
       }, 5000);
-  
-      // Cleanup the interval when the component unmounts
+
+      // Cleanup the interval when the component unmounts.
       return () => {
         clearInterval(intervalId);
       };
-    }, [currentGroup]);
+    }, []);
   
     const handleSwipeUp = () => {
       setCurrentGroup((prevGroup) => (prevGroup + 1) % Math.ceil(cardData.length / 3));
@@ -131,7 +131,7 @@ const Recentprojects = () => {
         <div className="cardss">
           {cardData.slice(currentGroup * 3, currentGroup * 3 + 3).map((cardd, index) => (
             <div className="cardd" key={index}>
-              <img alt={`Card ${index + 1}`} src={cardd.image} />
+              <img loading="lazy" decoding="async" alt={`Card ${index + 1}`} src={cardd.image} />
               <h4>{cardd.title}</h4>
               <p>{cardd.description}</p>
             </div>

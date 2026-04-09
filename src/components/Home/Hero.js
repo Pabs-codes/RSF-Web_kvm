@@ -70,6 +70,9 @@ function Hero() {
         autoPlay
         muted
         loop
+        playsInline
+        preload="metadata"
+        poster="/media/RSF.jpg"
         style={{ width: '100%', height: '100%', objectFit: 'cover' }}
       >
         <source src={require("../../assets/bgvid1.mp4")} type="video/mp4" />

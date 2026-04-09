@@ -32,18 +32,18 @@ const Services = () => {
             <Slider {...sliderSettings}>
               <div>
                 <div className="special__img__border">
-                  <img src="./media/01.jpg" alt="" className="zoomed-in" />
+                  <img loading="lazy" decoding="async" src="./media/01.jpg" alt="" className="zoomed-in" />
                 </div>
               </div>
               {/* Add additional images for the slideshow */}
               <div>
                 <div className="special__img__border">
-                  <img src="./media/001.jpg" alt="" className="zoomed-in" />
+                  <img loading="lazy" decoding="async" src="./media/001.jpg" alt="" className="zoomed-in" />
                 </div>
               </div>
               <div>
                 <div className="special__img__border">
-                  <img src="./media/002.jpg" alt="" className="zoomed-in" />
+                  <img loading="lazy" decoding="async" src="./media/002.jpg" alt="" className="zoomed-in" />
                 </div>
               </div>
             </Slider>
@@ -60,18 +60,18 @@ const Services = () => {
   <Slider {...sliderSettings}>
     <div>
       <div className="special__img__border">
-        <img src="./media/02.jpg" alt="" className="zoomed-in" />
+        <img loading="lazy" decoding="async" src="./media/02.jpg" alt="" className="zoomed-in" />
       </div>
     </div>
     {/* Add additional images for the slideshow */}
     <div>
       <div className="special__img__border">
-        <img src="./media/003.jpg" alt="" className="zoomed-in" />
+        <img loading="lazy" decoding="async" src="./media/003.jpg" alt="" className="zoomed-in" />
       </div>
     </div>
     <div>
       <div className="special__img__border">
-        <img src="./media/004.jpg" alt="" className="zoomed-in" />
+        <img loading="lazy" decoding="async" src="./media/004.jpg" alt="" className="zoomed-in" />
       </div>
     </div>
   </Slider>
@@ -86,18 +86,18 @@ const Services = () => {
   <Slider {...sliderSettings}>
     <div>
       <div className="special__img__border">
-        <img src="./media/3.jpg" alt="" className="zoomed-in" />
+        <img loading="lazy" decoding="async" src="./media/3.jpg" alt="" className="zoomed-in" />
       </div>
     </div>
     {/* Add additional images for the slideshow */}
     <div>
       <div className="special__img__border">
-        <img src="./media/005.jpg" alt="" className="zoomed-in" />
+        <img loading="lazy" decoding="async" src="./media/005.jpg" alt="" className="zoomed-in" />
       </div>
     </div>
     <div>
       <div className="special__img__border">
-        <img src="./media/000.jpg" alt="" className="zoomed-in" />
+        <img loading="lazy" decoding="async" src="./media/000.jpg" alt="" className="zoomed-in" />
       </div>
     </div>
   </Slider>
@@ -112,18 +112,18 @@ const Services = () => {
   <Slider {...sliderSettings}>
     <div>
       <div className="special__img__border">
-        <img src="./media/4.jpg" alt="" className="zoomed-in" />
+        <img loading="lazy" decoding="async" src="./media/4.jpg" alt="" className="zoomed-in" />
       </div>
     </div>
     {/* Add additional images for the slideshow */}
     <div>
       <div className="special__img__border">
-        <img src="./media/006.jpg" alt="" className="zoomed-in" />
+        <img loading="lazy" decoding="async" src="./media/006.jpg" alt="" className="zoomed-in" />
       </div>
     </div>
     <div>
       <div className="special__img__border">
-        <img src="./media/007.jpg" alt="" className="zoomed-in" />
+        <img loading="lazy" decoding="async" src="./media/007.jpg" alt="" className="zoomed-in" />
       </div>
     </div>
   </Slider>
@@ -138,18 +138,18 @@ const Services = () => {
   <Slider {...sliderSettings}>
     <div>
       <div className="special__img__border">
-        <img src="./media/5.jpg" alt="" className="zoomed-in" />
+        <img loading="lazy" decoding="async" src="./media/5.jpg" alt="" className="zoomed-in" />
       </div>
     </div>
     {/* Add additional images for the slideshow */}
     <div>
       <div className="special__img__border">
-        <img src="./media/008.jpg" alt="" className="zoomed-in" />
+        <img loading="lazy" decoding="async" src="./media/008.jpg" alt="" className="zoomed-in" />
       </div>
     </div>
     <div>
       <div className="special__img__border">
-        <img src="./media/009.jpg" alt="" className="zoomed-in" />
+        <img loading="lazy" decoding="async" src="./media/009.jpg" alt="" className="zoomed-in" />
       </div>
     </div>
   </Slider>
@@ -164,18 +164,18 @@ const Services = () => {
   <Slider {...sliderSettings}>
     <div>
       <div className="special__img__border">
-        <img src="./media/6.jpg" alt="" className="zoomed-in" />
+        <img loading="lazy" decoding="async" src="./media/6.jpg" alt="" className="zoomed-in" />
       </div>
     </div>
     {/* Add additional images for the slideshow */}
     <div>
       <div className="special__img__border">
-        <img src="./media/010.jpg" alt="" className="zoomed-in" />
+        <img loading="lazy" decoding="async" src="./media/010.jpg" alt="" className="zoomed-in" />
       </div>
     </div>
     <div>
       <div className="special__img__border">
-        <img src="./media/011.jpg" alt="" className="zoomed-in" />
+        <img loading="lazy" decoding="async" src="./media/011.jpg" alt="" className="zoomed-in" />
       </div>
     </div>
   </Slider>

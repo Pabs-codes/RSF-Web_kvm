@@ -46,42 +46,42 @@ const Homedivtwo = () => {
         <div className="cards2">
           {/* Card 1 */}
           <div className="card2">
-            <img alt="Card 1" src={one} />
+            <img loading="lazy" decoding="async" alt="Card 1" src={one} />
             {/* <h4>Reliability and Trustworthiness</h4> */}
             <p>Professional Standards for Individuals</p>
           </div>
 
           {/* Card 2 */}
           <div className="card2">
-            <img alt="Card 2" src={two} />
+            <img loading="lazy" decoding="async" alt="Card 2" src={two} />
             {/* <h4>Professional Expertise</h4> */}
             <p>Establishing Professionalism at Scale</p>
           </div>
 
           {/* Card 3 */}
           <div className="card2">
-            <img alt="Card 3" src={three} />
+            <img loading="lazy" decoding="async" alt="Card 3" src={three} />
             {/* <h4>Skilled and Experienced Team</h4> */}
             <p>Sutras for Professional Excellence</p>
           </div>
 
           {/* Card 4 */}
           <div className="card2">
-            <img alt="Card 4" src={four} />
+            <img loading="lazy" decoding="async" alt="Card 4" src={four} />
             {/* <h4>State-of-the-Art Facilities</h4> */}
             <p>Integration of Modern Advanced Machines in the Steel Industry</p>
           </div>
 
           {/* Card 5 */}
           <div className="card2">
-            <img alt="Card 5" src={five} />
+            <img loading="lazy" decoding="async" alt="Card 5" src={five} />
             {/* <h4>Customer-Centric Approach</h4> */}
             <p>Meeting the Needs of Domestic and International Clients</p>
           </div>
 
           {/* Card 6 */}
           <div className="card2">
-            <img alt="Card 6" src={six} />
+            <img loading="lazy" decoding="async" alt="Card 6" src={six} />
             {/* <h4>Technological Advancements</h4> */}
             <p>Embracing Technological Advancements and Aesthetics</p>
           </div>

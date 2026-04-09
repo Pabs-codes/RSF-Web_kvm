@@ -6,7 +6,7 @@ const Partners = () => {
   return (
     <div className="partners-container">
       <h2 className="partners-heading">CORPORATION PARTNERS</h2>
-      <img className="partners-image" alt="partners" src={partners} />
+      <img loading="lazy" decoding="async" className="partners-image" alt="partners" src={partners} />
     </div>
   );
 }
