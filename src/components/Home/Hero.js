@@ -53,7 +53,7 @@ function Hero() {
   }, []);
 
   const handleCallNowClick = () => {
-    const phoneNumber = "+94777751550"; // Replace with your actual phone number
+    const phoneNumber = "0715354040";
     const telLink = `tel:${phoneNumber}`;
 
     // Open the default phone app with the provided phone number

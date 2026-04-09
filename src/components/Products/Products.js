@@ -6,6 +6,25 @@ const Products = () => {
   const [filter, setFilter] = useState('Structural_steel');
   const [isVisible, setIsVisible] = useState(false);
   const [showInfoMessage, setShowInfoMessage] = useState(false);
+
+  const roofingShowcaseItems = [
+    {
+      name: 'Roofing Sheets',
+      image: '/media/roofingsheets.jpg',
+    },
+    {
+      name: 'Curved Roofing',
+      image: '/media/croof.jpg',
+    },
+    {
+      name: 'Roofing Nails',
+      image: '/media/roofingnails.jpg',
+    },
+    {
+      name: 'Fasteners & Accessories',
+      image: '/media/fastners.jpg',
+    },
+  ];
  
   useEffect(() => {
     // Set isVisible to false before changing the filter
@@ -101,6 +120,30 @@ const Products = () => {
           })}
 
           
+        </div>
+
+        <div className="roofing-showcase">
+          <h3 className="roofing-showcase__title">
+            We are manufacturing all kindof roofing sheets products
+          </h3>
+          <p className="roofing-showcase__subtitle">
+            Roofing sheets and accessories collection. Click any item to visit StencoITC.
+          </p>
+
+          <div className="roofing-showcase__grid">
+            {roofingShowcaseItems.map((item, index) => (
+              <a
+                key={index}
+                href="https://stencoitc.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="roofing-showcase__card"
+              >
+                <img src={item.image} alt={item.name} className="roofing-showcase__image" />
+                <span className="roofing-showcase__name">{item.name}</span>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </section>

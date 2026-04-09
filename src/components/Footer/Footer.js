@@ -18,11 +18,6 @@ const handleSubmit = (event) => {
   window.location.href = mailtoLink;
 };
 
-const myStyle = {
-    someStyleProperty: 'someValue',
-    color: 'white',
-    padding: '2px 2px 2px 2px',
-  };
 const Footer = () => {
   return (
     <footer className="footer">
@@ -41,12 +36,12 @@ const Footer = () => {
         </div>
         <div className="footer-contact">
           <h4>Contact</h4>
-          <p>+94 7777 51550 <br/> +94 772177729</p>
+          <p>071 535 40 40</p>
           <p>Email: <br/>info@rupasinghesteels.com</p>
        
         <div className="social-icons">
           <a href="https://www.facebook.com/rupasinghesteels" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i></a>
-          <a href="https://wa.me/+94777751550" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a>
+          <a href="https://wa.me/94715354040" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a>
           <a href="https://www.instagram.com/rupasinghesteels" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
           <a href="https://www.linkedin.com/in/rupasinghesteels" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
 
@@ -89,16 +84,7 @@ const Footer = () => {
 
       <div className="footer-copyright">
   <p className="copyright-text">© 2025 Rupasinghe Steels & Fabrications Pvt Ltd. All rights reserved.</p>
-  <p className="credit-text">
-    Designed and developed by Pabs-Codes 
-    <a href="https://www.linkedin.com/in/pabasaranavod/" target="_blank" rel="noopener noreferrer">
-    <i className="fab fa-linkedin" style={myStyle}></i>
-</a>
-<a href="mailto:pabscodes@gmail.com" target="_blank" rel="noopener noreferrer">
-  <i className="fab fa-google" style={myStyle}></i>
-</a>
-     |   StencoITC <img src="./media/stenco logo.png" alt="StencoITC Logo" className="stenco-logo" />
-  </p>
+        <p className="credit-text">Designed and developed by Stenco IT Solutions |</p>
 </div>
 
 

@@ -2,13 +2,13 @@ import React from 'react';
 import './Error.css'; // Import your CSS file for styling
 
 const Error = () => {
-  const whatsappNumber = '+94701852706';
+  const whatsappNumber = '94715354040';
 
   return (
     <div className='error-container'>
       <h1 className='error-heading'>Under construction</h1>
       <p className='error-message'>Check back later for updates.</p>
-      {/* <p className='error-message'>Contact - @Pabasara_Navod | +94 70 185 2706 </p> */}
+      {/* <p className='error-message'>Contact - 071 535 40 40 </p> */}
 
       <div className='hiks'>
         <button

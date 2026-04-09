@@ -35,7 +35,7 @@ class Navbar extends Component {
           ))}
 
           <div className="social-buttons">
-            <a href="https://wa.me/+94777751550" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/94715354040" target="_blank" rel="noopener noreferrer">
               <button className="whatsapp-button">
                 <FaWhatsapp />
               </button>
