@@ -8,10 +8,11 @@ const Contact = () => {
 
         <div className="info-section">
           <h2 className="info-heading">Address</h2>
-          <p className="info-text">No: 357, Kandy Road, Peliyagoda, Sri Lanka</p>
+          <p className="info-text">12 B Station Road, Wattala, Sri Lanka</p>
+          <p className="info-text">Postal Code: 11300</p>
           <a
           className="map-link"
-          href="https://www.google.com/maps/dir/6.9508494,79.8632827/357+Kandy+Rd,+Peliyagoda+11300/@6.9566593,79.8471677,13604m/data=!3m2!1e3!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3ae2581bc2d37227:0x22699eef6942b574!2m2!1d79.9121432!2d6.9690497?entry=ttu"
+          href="https://www.google.com/maps/search/?api=1&query=12%20B%20Station%20Road%2C%20Wattala%2C%20Sri%20Lanka%2011300"
           target="_blank"
           rel="noopener noreferrer"
         >

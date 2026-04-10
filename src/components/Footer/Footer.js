@@ -24,9 +24,9 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-address">
           <h4>Address</h4>
-          <p>No:357,<br/> Kandy Road,<br/> Peliyagoda, <br/> Sri Lanka</p>
+          <p>12 B Station Road,<br/> Wattala,<br/> Sri Lanka<br/> Postal Code: 11300</p>
           <a
-    href="https://www.google.com/maps/dir/6.9508494,79.8632827/357+Kandy+Rd,+Peliyagoda+11300/@6.9566593,79.8471677,13604m/data=!3m2!1e3!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3ae2581bc2d37227:0x22699eef6942b574!2m2!1d79.9121432!2d6.9690497?entry=ttu"
+    href="https://www.google.com/maps/search/?api=1&query=12%20B%20Station%20Road%2C%20Wattala%2C%20Sri%20Lanka%2011300"
     target="_top" 
     className="location-button"
   >
@@ -72,7 +72,7 @@ const Footer = () => {
 
       <iframe
           title="Rupasinghe Steels Location"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7923.479828980889!2d79.8471677!3d6.9499247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2581bc2d37227%3A0x22699eef6942b574!2s357%20Kandy%20Rd%2C%20Peliyagoda%2011300!5e0!3m2!1sen!2slk!4v1665548899517!5m2!1sen!2slk&maptype=satellite"
+          src="https://www.google.com/maps?q=12%20B%20Station%20Road%2C%20Wattala%2C%20Sri%20Lanka%2011300&output=embed"
           width="100%"
           height="100"
           style={{ border: 0 }}
